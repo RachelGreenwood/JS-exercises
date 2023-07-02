@@ -128,11 +128,15 @@ function logGreeting() {
   // Here's a string I made representing my grocery list.
   // Using split() and groceryList, make an array of my grocery list items
   const groceryList = "eggs,carrots,orange juice";
+  const groceryArr = groceryList.split(",");
+  console.log(groceryArr);
   
   // Here's a string I made representing my morning schedule.
   // Using split() and mySchedule, make an array of the *first 2* things I do in the morning
   // There are multiple ways to do this, but try doing it using only the split() function.
   const mySchedule = "wake up--->brush teeth--->eat breakfast--->go to work";
+  const newSchedule = mySchedule.split("--->", 2));
+  console.log(newSchedule);
   
   // Congrats, you made it to the end!
   // Did you find this easy or hard? If you used references, which ones helped you?
